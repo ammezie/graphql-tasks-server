@@ -1,0 +1,31 @@
+{
+  "name": "graphql-tasks-server",
+  "version": "1.0.0",
+  "description": "Tasks GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammezie/graphql-tasks-server.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Chimezie Enyinnaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ammezie/graphql-tasks-server/issues"
+  },
+  "homepage": "https://github.com/ammezie/graphql-tasks-server#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.0.2",
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.1.0"
+  }
+}
