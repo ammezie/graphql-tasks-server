@@ -3,23 +3,23 @@ const resolvers = require('./resolvers');
 
 const typeDefs = `
     type Project {
-        id: ID!
+        id: Int!
         name: String!
-        completed: Boolean!
         tasks: [Task]
     }
     type Task {
-        id: ID!
-        description: String!
-        completed: Boolean!
+        id: Int!
+        title: String!
         project: Project
+        completed: Boolean!
     }
     type Query {
-        projects: [Project]
-        tasks: [Task]
         projectByName(name: String!): Project
-        taskByName(name: String!): Task
-        completedTasks(completed: Boolean!); [Task]
+        fetchTasks: [Task]
+        getTask(id: Int!): Task
+    }
+    type Mutation {
+        markAsCompleted(taskID: Int!): Task
     }
 `;
 
