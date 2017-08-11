@@ -1,3 +1,9 @@
+const projects = [
+    { id: 1, name: 'Sample 1' },
+    { id: 2, name: 'Sample 2' },
+    { id: 3, name: 'Sample 3' },
+];
+
 const tasks = [
     { id: 1, title: '', completed: true, projectID: 1 },
     { id: 2, title: '', completed: false, projectID: 1 },
@@ -11,4 +17,4 @@ const tasks = [
     { id: 10, title: '', completed: false, projectID: 3 }
 ];
 
-module.exports = tasks;
+module.exports = { projects, tasks };

@@ -1,8 +1,7 @@
 const _ = require('lodash');
 
 // Sample data
-const projects = require('./../data/projects');
-const tasks = require('./../data/tasks');
+const { projects, tasks } = require('./../data/data');
 
 const resolvers = {
     Query: {
