@@ -6,13 +6,13 @@ Tasks GraphQL server
 Clone the project repository by running the command below if you use SSH
 
 ```
-git@github.com:ammezie/graphql-tasks-server.git
+git clone git@github.com:ammezie/graphql-tasks-server.git
 ```
 
 If you use https, use this instead
 
 ```
-https://github.com/ammezie/graphql-tasks-server.git
+git clone https://github.com/ammezie/graphql-tasks-server.git
 ```
 
 After cloning, run:
